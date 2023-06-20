@@ -12,8 +12,10 @@ const TrafficLight = () => {
 			: color === "orange" 
 			? setColor("green") 
 			: color === "green" && show === true 
-			? setColor("purple") 
+			? setColor("purple") g
 			: color === "green" && show === false 
+			? setColor("red")
+			: color === "purple"
 			? setColor("red")
 			: null 
 	}
@@ -32,7 +34,7 @@ const TrafficLight = () => {
 					? "trafficLightPurple shine"
 					: color !== "purple" && show === true
 					? "trafficLightPurple" 
-					:"hide" } onClick={() => setColor("purple")}></div>
+					:"hide"} onClick={() => setColor("purple")}></div>
 				<button type="button" onClick={party}>Party</button>
 				<button type="button" onClick={() => setShow(!show)}>Extra</button>
 			</div>
