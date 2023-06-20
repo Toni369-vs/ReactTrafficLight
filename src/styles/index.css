@@ -15,7 +15,7 @@
 /* CONTENEDEDOR PRINCIPAL DE LUCES */
 
 .main-container {
-    height: 350px;
+    height: 400px;
     width: 100px;
     background-color: rgb(0, 0, 0);
     border-radius: 11px; 
@@ -51,6 +51,19 @@
     height: 80px;
     border-radius: 90px; 
     cursor: pointer;
+}
+
+
+.trafficLightPurple {
+    background-color: purple;
+    width: 80px;
+    height: 80px;
+    border-radius: 90px; 
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
 }
 
 .shine {
