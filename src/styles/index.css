@@ -76,10 +76,14 @@ body {
 }
 
 .shine {
-    box-shadow: 0 0 30px rgb(234, 236, 235);;
+    box-shadow: 0 0 40px rgba(250, 249, 246, 0.8);;
+    animation: shine-animation 2s infinite;
 }
 
-
-
+@keyframes shine-animation {
+    0% { box-shadow: 0 0 40px rgba(250, 249, 246, 0.8); }
+    50% { box-shadow: 0 0 40px rgba(234, 236, 235, 0.4); }
+    100% { box-shadow: 0 0 40px rgba(250, 249, 246, 0.8); }
+}
 
 /* ----------------------------------------- */
