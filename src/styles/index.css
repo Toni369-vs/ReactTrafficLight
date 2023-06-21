@@ -1,3 +1,12 @@
+body {
+    background-image: url("../img/Captura.PNG");
+    background-size: cover;
+    font-family: 'Labrada', serif, bold;
+    font-family: 'Rajdhani', sans-serif, bold;
+    font-family: 'Shantell Sans', cursive, bold;
+
+}
+
 #app {
     display: grid;
     place-items: center;

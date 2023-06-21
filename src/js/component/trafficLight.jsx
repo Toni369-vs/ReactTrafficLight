@@ -12,7 +12,7 @@ const TrafficLight = () => {
 			: color === "orange" 
 			? setColor("green") 
 			: color === "green" && show === true 
-			? setColor("purple") g
+			? setColor("purple")
 			: color === "green" && show === false 
 			? setColor("red")
 			: color === "purple"
